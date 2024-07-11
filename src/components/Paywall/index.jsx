@@ -1,12 +1,13 @@
 import {pay} from "../resource/resource";
+import styles from "./Paywall.module.scss";
 
 const Paywall = () => {
 
     return (
         <>
-            <div className="paywall">
+            <div className={styles.paywall}>
                 <img src={pay} alt="Paywall" />
-                <div className='inner_info'>
+                <div className={styles.inner_info}>
                     <p>‍🔥 Unlimited Rizz</p>
                     <p>🤝 Trusted by Millions</p>
                     <p>❤️ Coach Recommended</p>
